@@ -6,26 +6,95 @@
 
 body {
   background-image: url(images/pattern-background-desktop.svg);
-  height: 100vh;
-  width: 100vw;
-  font-family: "Outfit", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 1440px;
 }
 
 .card {
-  background-color: hsl(225, 100%, 94%);
-  border-radius: 11px;
-  max-width: 380px;
-  padding: 11px;
-  height: 100%;
+  position: absolute;
+  width: 450px;
+  height: 697px;
+  left: 495px;
+  top: 102px;
+  max-width: 450px;
+  max-height: 697px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 2px 2px 2px 5px gray;
+}
+
+.card .hero {
+  border-radius: 8px 8px 0px 0px;
+  width: 450px;
+  height: 220px;
+  margin-bottom: 45px;
+}
+
+.order {
+  margin-bottom: 17px;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1f2e55;
+}
+
+.you {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #717fa6;
+}
+
+.flex1 {
+  margin-bottom: 32px;
+  width: 354px;
+  height: 98px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  -webkit-box-shadow: 0px 19px 13px 13px hsl(218, 52%, 8%);
-  -moz-box-shadow: 0px 19px 13px 13px hsl(218, 52%, 8%);
-  box-shadow: 0px 19px 13px 13px hsl(218, 52%, 8%);
+  border: red 2px solid;
+}
+
+.icon-music {
+}
+
+.flex2 {
+}
+
+.annual {
+}
+
+.dollars {
+}
+
+.change {
+  cursor: pointer;
+}
+
+.proceed {
+  cursor: pointer;
+  margin-bottom: 32px;
+  
+  width: 354px;
+  margin-left: 48px;
+}
+
+.cancel {
+  margin-bottom: 48px;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  margin-left: 178px;
 }
